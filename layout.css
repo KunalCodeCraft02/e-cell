@@ -1,0 +1,172 @@
+html{
+    scroll-behavior: smooth;
+}
+.background {
+    background: rgba(0, 0, 0, 0.5) url('../background2.webp');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+h1{
+    align-items: center;
+    justify-content: center;
+    font-size: 70px;
+    font-family:ui-rounded;
+    color: rgb(242, 240, 244);
+    margin-left: 183px;
+
+}
+h2{
+    font-size: 60px;
+    margin-left: 100px;
+    color: rgba(20, 20, 181, 0.795);
+    
+}
+.past-events{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family:sans-serif;
+    max-width: 60%;
+    margin: auto;
+    height: 65%;
+}
+.webimage{
+    height: 250px;
+    width: 300px;
+    border: 3px solid black;
+    border-radius: 25px;
+    margin-top:35px;
+    
+}
+.web{
+    font-size: 45px;
+    color: rgb(238, 233, 175);
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: -75px;
+
+}
+.info{
+    font-size: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-right: 40px;
+
+}
+.upcomming-events{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 60%;
+    margin: auto;
+    height: 65%;
+
+}
+.work{
+    font-size: 45px;
+    color: rgb(238, 233, 175);
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: -75px;
+
+
+
+}
+.winfo{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 40px;
+
+
+}
+.paras{
+    margin-left: -70px;
+    padding: 33px;
+    margin-right: 45px;
+    align-items: center;
+}
+.wimgs{
+    height: 250px;
+    width: 300px;
+    border: 3px solid black;
+    border-radius: 25px;
+    margin-top:35px;
+
+}
+.busi{
+    font-size: 45px;
+    color: rgb(238, 233, 175);
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: -75px;
+
+
+
+}
+.binfo{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 40px;
+
+
+}
+.bimgs{
+    height: 250px;
+    width: 300px;
+    border: 3px solid black;
+    border-radius: 25px;
+    margin-top:35px;
+
+}
+.stexpo{
+    font-size: 45px;
+    color: rgb(238, 233, 175);
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: -75;
+
+}
+.stinfo{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 40px;
+
+
+
+}
+.stimgs{
+    height: 250px;
+    width: 300px;
+    border: 3px solid black;
+    border-radius: 25px;
+    margin-top:35px;
+
+
+}
+.key{
+    font-size: 45px;
+    color: rgb(238, 233, 175);
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: -75;
+
+
+}
+
+.keyinfo{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 40px;
+
+}
+
+.keyimgs{
+    height: 250px;
+    width: 300px;
+    border: 3px solid black;
+    border-radius: 25px;
+    margin-top:35px;
+
+
+}
+
+

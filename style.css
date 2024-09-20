@@ -1,0 +1,330 @@
+@font-face {
+    font-family: AK;
+    src: url(./ppmori-regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth; 
+
+} 
+
+.logo {
+    width: 9%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(24, 24, 23) */
+        margin-top: 1px;
+    /* border: 1px solid white; */
+    margin-left:46px;
+ }
+
+.logo img {
+    width: 63%;
+
+}
+
+.navbar{
+    display: flex;
+    position: sticky;
+    top: 0;
+    cursor: grabbing;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin-left: 320px;
+
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 23px 35px;
+
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.nav-list li a:hover {
+    color: rgb(20, 59, 158);
+
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.5) url('../background.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 60%;
+    margin: auto;
+    height: 65%;
+}
+.firstsection{
+    height: 100vh;
+}
+.firsthalf{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+
+
+}
+.secondhalf{
+    width: 30%;
+
+}
+.secondhalf img{
+    width: 70%;
+    border: 4px solid white;
+    border-radius: 150px;
+    display: block;
+    margin-left: 30px; 
+    
+}
+.title{
+    font-family: ui-rounded;
+    font-size: 38px;
+    color: rgb(50, 35, 186);
+    margin-right: -19px; 
+
+}
+.qoute{
+    font-family:fangsong;
+    font-size: 27px;
+    margin-top: 7px;
+    color: rgb(9, 204, 197);
+    
+}
+
+#element{
+    font-size: 42px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(243, 225, 242, 0.662);
+}
+.thirdhalf{
+    background: none;
+    margin-left: 43px;
+    font-size: 25px;
+    color: rgb(248, 250, 252);
+}
+.msg{
+    font-size: 33px;
+
+}
+.section{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 60%;
+    margin: auto;
+    margin-top: 12px;
+
+}
+
+.sectiontag{
+    font-size: 45px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 23px;
+
+}
+.sectionsubtag{
+    font-size: 28px;
+    color: gray;
+    font-family:fangsong;
+    margin-left: -40px;
+    margin-top: 4px;
+}
+.imgvision{
+    height: 250px;
+    width: 300px;
+    border: 3px solid black;
+    border-radius: 25px;
+    margin-top: 15px;
+
+
+}
+.paras{
+    margin-left: -70px;
+    padding: 33px;
+    margin-right: 45px;
+    align-items: center;
+}
+
+
+.imggoal{
+    height: 250px;
+    width: 300px;
+    border: 3px solid black;
+    border-radius: 25px;
+    margin-top: 15px;
+}
+.sponsor{
+    height: 323px;
+    width: 160vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 12px;
+    color: black;
+    background-color: rgb(209, 201, 201);
+
+}
+.sponimgs{
+    height: 250px;
+    width: 300px;
+    border: 3px solid black;
+    border-radius: 25px;
+    margin-top: 15px;
+}
+.sponinfo{
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+    margin-right: 40px;
+    margin-left: 12px;
+    padding-left: 10px;
+
+}
+.ourspon{
+    font-size: 32px;
+    color: rgb(4, 4, 36);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 23px;
+    margin-left: 44px;
+
+}
+
+.contact{
+    background-color: #f6f5f4;
+    height: 733px;
+
+}
+.text-center{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 35px;
+
+}
+.form{
+    max-width: 1100px;
+    margin: 26px auto;
+}
+.form-input{
+    margin: 15px 0;
+    padding: 5px 13px;
+    width: 100%;
+    font-size: 19px;
+    border: 2px solid gray;
+    border-radius: 6px;
+}
+
+.btn{
+    padding: 8px 20px;
+    margin: 7px 3px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+.btn-dark{
+    color: black;
+    border: 2px solid grey;
+}
+
+.text-footer{
+    text-align: center;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+
+}
+.contact img {
+    width: 45px; /* adjust the size as needed */
+    height: 45px; 
+    margin: auto;/* adjust the size as needed */
+  }
+  
+  .contact a {
+    text-decoration: none;
+    color: #000; /* adjust the color as needed */
+  }
+  
+  .contact a:hover {
+    color: #666; /* adjust the hover color as needed */
+  }
+.list ul li{
+    list-style: none;
+}  
+.co{
+    font-size: 23px;
+    margin-top: 23px;
+    margin-left: -153px;
+}
+.list{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.insta:hover{
+    cursor: pointer;
+    color: blue;
+
+
+}
+
+
+/* .fixed {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    z-index: 11;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+    letter-spacing: 0.3vw;
+    font-family: AK;
+    top: 0%;
+    transition: top 1s ease;
+    animation: slideOut 2s ease-in-out 3s forwards; 
+}
+
+@keyframes slideOut {
+    from {
+        top: 0%;
+    }
+    to {
+        top: -150%;
+    }
+} */

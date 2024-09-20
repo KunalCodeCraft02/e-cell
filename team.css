@@ -1,0 +1,44 @@
+.background {
+    background: rgba(0, 0, 0, 0.5) url('../team background.webp');
+    background-size: cover;
+    background-blend-mode: darken;
+    
+    
+
+}
+h1{
+    align-items: center;
+    justify-content: center;
+    margin-left: 434px;
+    margin-top: 50px;
+    font-size: 60px;
+    color: white;
+}
+
+.presimgs{
+    height: 330px;
+    width: 233px;
+    justify-items: center;
+    align-items: center;
+    margin-left: 533px;
+    border: 3px solid white;
+    margin-top: 43px;
+}
+.shu{
+    font-size: 90px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 532px;
+    margin-top: 50px;
+    font-size: 40px;
+    color: white;
+}
+.shur{
+    font-size: 90px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 350px;
+    margin-top: 50px;
+    font-size: 40px;
+    color: white;
+}
